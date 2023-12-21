@@ -1,0 +1,24 @@
+---
+enable: true
+title: "Why Choose us?"
+subtitle: >
+          We enable investors a complete logistics solution for their solar projects.
+services:
+  - name: "Materials from reputable brands"
+    description: >
+                Working with some of the biggest suppliers in
+                the world for solar power plant materials.
+    icon: "ti-view-grid"
+  - name: "Infinite possibilities"
+    description: >
+                Your solar advantage for a greener tomorrow. Explore smart, eco-friendly solutions
+                that power your business towards a sustainable and brighter future.
+    icon: "ti-infinite"
+  - name: "The time is now"
+    description: >
+                Seize the moment to power your future.
+                Capitalize on the potential of solar solutions
+                to drive unparalleled returns and secure your financial success.
+    icon: "ti-alarm-clock"
+  
+---

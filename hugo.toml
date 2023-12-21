@@ -1,0 +1,4 @@
+baseURL = 'https://ktm-es.com/'
+languageCode = 'en-us'
+title = 'KTM Energy Solutions'
+theme = 'coHub'

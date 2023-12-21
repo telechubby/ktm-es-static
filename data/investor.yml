@@ -1,0 +1,28 @@
+---
+enable: true
+title: "Our Team"
+subtitle: >
+          These are the people that make the magic happen!
+investor:
+  - name: "Kristijan Kolev"
+    post: "Co-Founder"
+    image: "images/team/design-team-01.jpg"
+  - name: "Trajče Dimitrov"
+    post: "Co-Founder"
+    image: "images/team/design-team-01.jpg"
+  - name: "Marjan Jovčevski"
+    post: "Co-Founder"
+    image: "images/team/design-team-01.jpg"
+  - name: "Filip"
+    post: "Engineer"
+    image: "images/team/design-team-01.jpg"
+  - name: "Daniel"
+    post: "Engineer"
+    image: "images/team/design-team-01.jpg"
+  - name: "Katerina"
+    post: "Accounting"
+    image: "images/team/design-team-01.jpg"
+  - name: "Elena"
+    post: "Accounting"
+    image: "images/team/design-team-01.jpg"
+---
