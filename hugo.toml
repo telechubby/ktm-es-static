@@ -1,4 +1,4 @@
-baseURL = 'https://ktm-energy-solutions.com/'
+baseURL = 'https://ktm-energy-solutions.onrender.com'
 languageCode = 'en-us'
 title = 'KTM Energy Solutions'
 theme = 'coHub'
