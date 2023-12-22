@@ -7,17 +7,29 @@ title = 'KTM Energy Solutions'
 
   # Main Menu
   [[menu.Main]]
-  name = "Our Projects"
+  name = "Exhibition"
   url= "#gallery"
   weight = 1
   [[menu.Main]]
-  name = "Why choose us?"
+  name = "Feature"
   url= "#service"
   weight = 1
   [[menu.Main]]
-  name = "About us"
+  name = "About"
   url= "/about/"
   weight = 3
+  [[menu.Main]]
+  name = "Blog"
+  url= "#blog"
+  weight = 4
+  [[menu.Main]]
+  name = "Pricing"
+  url= "#pricing"
+  weight = 5
+  [[menu.Main]]
+  name = "FAQ"
+  url= "#faq"
+  weight = 6
   [[menu.Main]]
   name = "Contact"
   url= "/contact/"
@@ -37,31 +49,33 @@ title = 'KTM Energy Solutions'
   # theme_overrides = "css/overrides.css"
   aboutPageURL = "blog"
   contactLink = "contact"
-  copyright = "© {year} <a href=\"https://ktm-es.com\" target=\"_blank\">KTM Energy Solutions </a>"
+  copyright = "© {year} <a target=\"_blank\">KTM Energy Solutions </a>"
   fabFormURL =  "https://fabform.io/f/u00kv3-"
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/ktm-logo.png"
   footerlogo = "images/ktm-logo.png"
-  footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
 
   [params.address]
-  address = "Goce Delčev 46 <br> 2000 Shtip, Macedonia"
-  email = "naracki@ktm-es.com"
+  address = "Goce Delčev 43, 2000 Shtip, Macedonia"
+  email = "hello@example.com"
   openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
-  openingHours = "We are open from 08:00 — 16:00 week days."
-  phone = "+(389) 78-590-599"
+  openingHours = "We are open from 08:00 - 16:00 Mon-Sat"
+  phone = "(+389) 070-300-828"
 
   [params.map]
   APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-  latitude = "41.74976682797196"
-  longitude = "22.1831208544016"
+  latitude = "45.4502528"
+  longitude = "-122.783407"
+  pinImage = "images/pin.png"
 
   # Social icons
   [[params.social]]
   icon = "ti-facebook"
-  url = "https://www.facebook.com/profile.php?id=100083385300549"
+  url = "https://www.facebook.com/"
   weight = 1
   [[params.social]]
   icon = "ti-instagram"
-  url = "https://www.instagram.com/ktm.energysolution/"
+  url = "https://www.instagram.com/"
   weight = 2
+  
+  
