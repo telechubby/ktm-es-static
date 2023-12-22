@@ -7,33 +7,21 @@ title = 'KTM Energy Solutions'
 
   # Main Menu
   [[menu.Main]]
-  name = "Exhibition"
+  name = "Our work"
   url= "#gallery"
   weight = 1
   [[menu.Main]]
-  name = "Feature"
+  name = "Why us?"
   url= "#service"
   weight = 1
   [[menu.Main]]
-  name = "About"
+  name = "About us"
   url= "/about/"
   weight = 3
   [[menu.Main]]
-  name = "Blog"
-  url= "#blog"
-  weight = 4
-  [[menu.Main]]
-  name = "Pricing"
-  url= "#pricing"
-  weight = 5
-  [[menu.Main]]
-  name = "FAQ"
-  url= "#faq"
-  weight = 6
-  [[menu.Main]]
   name = "Contact"
   url= "/contact/"
-  weight = 7
+  weight = 4
 
   # Sitemap Menu
   [[menu.sitemap]]
@@ -57,7 +45,7 @@ title = 'KTM Energy Solutions'
 
   [params.address]
   address = "Goce Delčev 43, 2000 Shtip, Macedonia"
-  email = "hello@example.com"
+  email = "naracki@ktm-es.com"
   openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
   openingHours = "We are open from 08:00 - 16:00 Mon-Sat"
   phone = "(+389) 070-300-828"
