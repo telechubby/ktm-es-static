@@ -1,4 +1,67 @@
 baseURL = 'https://ktm-energy-solutions.onrender.com'
 languageCode = 'en-us'
+paginate = 6
+theme= "coHub"
 title = 'KTM Energy Solutions'
-theme = 'coHub'
+ 
+
+  # Main Menu
+  [[menu.Main]]
+  name = "Our Projects"
+  url= "#gallery"
+  weight = 1
+  [[menu.Main]]
+  name = "Why choose us?"
+  url= "#service"
+  weight = 1
+  [[menu.Main]]
+  name = "About us"
+  url= "/about/"
+  weight = 3
+  [[menu.Main]]
+  name = "Contact"
+  url= "/contact/"
+  weight = 7
+
+  # Sitemap Menu
+  [[menu.sitemap]]
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 1
+  [[menu.sitemap]]
+  name = "Terms"
+  url = "/terms/"
+  weight = 2
+
+[params]
+  # theme_overrides = "css/overrides.css"
+  aboutPageURL = "blog"
+  contactLink = "contact"
+  copyright = "© {year} <a href=\"https://ktm-es.com\" target=\"_blank\">KTM Energy Solutions </a>"
+  fabFormURL =  "https://fabform.io/f/u00kv3-"
+  googleAnalytics = "G-JZ95FEWF9K"
+  logo = "images/ktm-logo.png"
+  footerlogo = "images/ktm-logo.png"
+  footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
+
+  [params.address]
+  address = "Goce Delčev 46 <br> 2000 Shtip, Macedonia"
+  email = "naracki@ktm-es.com"
+  openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
+  openingHours = "We are open from 08:00 — 16:00 week days."
+  phone = "+(389) 78-590-599"
+
+  [params.map]
+  APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
+  latitude = "41.74976682797196"
+  longitude = "22.1831208544016"
+
+  # Social icons
+  [[params.social]]
+  icon = "ti-facebook"
+  url = "https://www.facebook.com/profile.php?id=100083385300549"
+  weight = 1
+  [[params.social]]
+  icon = "ti-instagram"
+  url = "https://www.instagram.com/ktm.energysolution/"
+  weight = 2
