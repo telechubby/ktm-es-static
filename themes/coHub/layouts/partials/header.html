@@ -1,5 +1,7 @@
 <!-- Mark up for Site Navigation Section-->
 <header class="header">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
   <nav class="main-nav navbar navbar-expand-lg {{ if not $.IsHome }}main-nav-colored{{ end }}">
     <div class="container-fluid">
       <a href="{{.Site.BaseURL}}" class="navbar-brand">
@@ -19,7 +21,7 @@
           {{ $currentPage := . }}
           {{ $menu := .Site.Menus.main}}
           {{range $index, $element := $menu}}
-          <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{ end }}">
+          <li class="nav-item">
              <a class="nav-link scroll-to" href="{{ .URL | relURL }}">{{.Name}}</a>
           </li>
           {{end}}

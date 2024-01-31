@@ -1,0 +1,17 @@
+---
+enable: true
+title: "Our projects"
+slides:
+ - image: "images/gallery/gallery1.jpg"
+ - image: "images/gallery/gallery2.jpg"
+ - image: "images/gallery/gallery3.jpg"
+ - image: "images/gallery/gallery4.jpg"
+ - image: "images/gallery/gallery5.jpg"
+ - image: "images/gallery/gallery6.jpg"
+ - image: "images/gallery/gallery7.jpg"
+ - image: "images/gallery/gallery8.jpg"
+ - image: "images/gallery/gallery9.jpg"
+ - image: "images/gallery/gallery10.jpg"
+ - image: "images/gallery/gallery11.jpg"
+ - image: "images/gallery/gallery12.jpg"
+---

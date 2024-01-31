@@ -11,14 +11,28 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ range .investor}}
-      <div class="col-lg-4">
+      {{ range .managers}}
+      <div class="col-4">
+        <div class="member-informashion">
+          <div class="member-thume">
+            <img src="{{ .image | absURL }}" alt="image">
+          </div>
+          <h2>{{.name}}</h2>
+          <h6 style="margin: 0; padding: 0;">{{.post}}</h6>
+          <p style="margin: 0; padding: 0;">{{.description}}</p>
+          <a href="tel:{{ .phone }}">{{ .phone }}</a>
+        </div>
+      </div>
+      {{end}}
+      {{ range .engineers}}
+      <div class="col-3">
         <div class="member-informashion">
           <div class="member-thume">
             <img src="{{ .image | absURL }}" alt="image">
           </div>
           <h3>{{.name}}</h3>
-          <p>{{.post}}</p>
+          <p style="margin: 0; padding: 0;">{{.post}}</p>
+          <a href="tel:{{ .phone }}">{{ .phone }}</a>
         </div>
       </div>
       {{end}}

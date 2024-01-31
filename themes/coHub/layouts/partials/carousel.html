@@ -1,0 +1,16 @@
+{{ with .Site.Data.carousel }} {{ if .enable }}
+<div style="width: 90%; margin: 50px auto 50px auto;" id="gallery">
+  <div class="section-title">
+    <h2 class="w-100 my-3 text-center">{{ .title }}</h2>
+  </div>
+  <div class="carousel">
+    {{ range .slides }}
+    <div class="col-12">
+      <div class="gallery-item" style="max-height: 70vh; aspect-ratio: 16 / 9; margin: auto;">
+          <img src="{{ .image | absURL }}" alt="gallery-images" style="object-fit: cover; height: 100%; width: 100%;"/>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }} {{ end }}

@@ -1,6 +1,6 @@
 .clients {
   position: relative;
-  padding: 50px 0;
+  padding: 30px 0;
   overflow: hidden;
   text-align: center;
   background-color: #8080802e;
@@ -13,7 +13,7 @@
   }
   &-slider {
     position: relative;
-    padding: 50px 0;
+    padding: 20px 0;
     @include mobile {
       padding: 20px 0;
     }

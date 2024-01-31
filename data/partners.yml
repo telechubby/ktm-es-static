@@ -1,0 +1,23 @@
+---
+enable: true
+title: "Our Partners"
+clients:
+  - image: "images/partners/partner5.png"
+    url: 'https://solar.huawei.com/en'
+  - image: "images/partners/partner7.png"
+    url: 'https://www.deyeinverter.com'
+  - image: "images/partners/partner6.png"
+    url: 'https://en.sungrowpower.com'
+  - image: "images/partners/partner1.svg"
+    url: 'https://www.jinkosolar.com/en/'
+  - image: "images/partners/partner2.png"
+    url: 'https://www.canadiansolar.com/'
+  - image: "images/partners/partner3.png"
+    url: 'https://www.eco-greenenergy.com/'
+  - image: "images/partners/partner4.png"
+    url: 'https://www.dahsolarpv.com/'
+  - image: "images/partners/partner8.png"
+    url: 'https://www.siemens.com/'
+  - image: "images/partners/partner9.png"
+    url: 'https://www.se.com/'
+---

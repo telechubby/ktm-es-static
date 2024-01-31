@@ -4,7 +4,7 @@ title : "<h1>KTM - YOUR GATEWAY TO
 enable: true
 subtitle: >
         Infinite possibilites are waiting on you!
-heroBGimg: "images/hero/hero-bg.jpg"
-heroVideo : "https://vimeo.com/45830194?autoplay=1&rel=0"
-herosVideoDesc: "<span> <strong>KTM in</strong> 30 Seconds</span>"
+heroBGimg: "images/hero/hero-bg.png"
+heroVideo : "https://player.vimeo.com/video/908185486?badge=0&autoplay=1&player_id=0&app_id=58479"
+herosVideoDesc: "<span> <strong>KTM in</strong> 2 minutes</span>"
 ---

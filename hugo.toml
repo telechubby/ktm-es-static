@@ -1,4 +1,4 @@
-baseURL = 'https://ktm-energy-solutions.onrender.com'
+baseURL = 'https://ktm-es.com'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"
@@ -7,7 +7,7 @@ title = 'KTM Energy Solutions'
 
   # Main Menu
   [[menu.Main]]
-  name = "Our work"
+  name = "Our projects"
   url= "#gallery"
   weight = 1
   [[menu.Main]]
@@ -16,54 +16,32 @@ title = 'KTM Energy Solutions'
   weight = 1
   [[menu.Main]]
   name = "About us"
-  url= "/about/"
-  weight = 3
-  [[menu.Main]]
-  name = "Contact"
-  url= "/contact/"
-  weight = 4
-
-  # Sitemap Menu
-  [[menu.sitemap]]
-  name = "Privacy Policy"
-  url = "/privacy/"
-  weight = 1
-  [[menu.sitemap]]
-  name = "Terms"
-  url = "/terms/"
-  weight = 2
+  url= "/about"
 
 [params]
   # theme_overrides = "css/overrides.css"
-  aboutPageURL = "blog"
+  aboutPageURL = "about"
   contactLink = "contact"
   copyright = "© {year} <a target=\"_blank\">KTM Energy Solutions </a>"
-  fabFormURL =  "https://fabform.io/f/u00kv3-"
-  googleAnalytics = "G-JZ95FEWF9K"
+  fabFormURL =  ""
   logo = "images/ktm-logo.png"
   footerlogo = "images/ktm-logo.png"
 
   [params.address]
-  address = "Goce Delčev 43, 2000 Shtip, Macedonia"
+  address = "Goce Delchev 43, 2000 Shtip, Macedonia"
   email = "naracki@ktm-es.com"
   openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
-  openingHours = "We are open from 08:00 - 16:00 Mon-Sat"
-  phone = "(+389) 070-300-828"
-
-  [params.map]
-  APIkey = "AIzaSyC9rV6yesIygoVKTD6QLf_iCa9eiIIHqZ0"
-  latitude = "45.4502528"
-  longitude = "-122.783407"
-  pinImage = "images/pin.png"
+  openingHours = "We are open from 08:00 - 16:00 Mon-Fri"
+  phone = "+38978590599"
 
   # Social icons
   [[params.social]]
   icon = "ti-facebook"
-  url = "https://www.facebook.com/"
+  url = "https://www.facebook.com/profile.php?id=100083385300549"
   weight = 1
   [[params.social]]
   icon = "ti-instagram"
-  url = "https://www.instagram.com/"
+  url = "https://www.instagram.com/ktm.energysolution/"
   weight = 2
   
   

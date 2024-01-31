@@ -6,17 +6,27 @@
   top: 0;
   width: 100%;
   @include desktop {
-    background: $white;
     padding: 30px;
   }
   @include mobile {
-    padding: 15px 30px;
-    width: 95%;
+    padding: 10px 30px;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
-    top: 10px;
+    top: 0;
   }
   .navbar-nav {
+    @include mobile { 
+      background-color: white;
+    }
+
+    @media screen and (max-width: 991px) {
+      background-color: white;
+      
+    }
+    @media screen and (max-width:350px){
+      width: 100%;
+    }
     .nav-item {
       .nav-link {
         color: $white;
@@ -29,10 +39,11 @@
         font-family: $primary-font;
         z-index: 1;
         transition: all 0.5s ease-in-out;
+      
         @include desktop {
           color: $text-color-dark;
         }
-      }
+      }      
     }
 
     @include desktop {
@@ -60,7 +71,11 @@
 
   .navbar-toggler {
     outline: 0;
-    padding: 0;
+    padding: 10px;
+    background-color: $white;
+    text-align: center;
+    width: 44px;
+    aspect-ratio: 1;
 
     .icon-bar {
       width: 25px;
@@ -76,6 +91,7 @@
       &:nth-child(1) {
         transform: rotate(45deg);
         transform-origin: 10% 10%;
+        margin-left: 2px;
       }
 
       &:nth-child(2) {
@@ -86,22 +102,26 @@
       &:nth-child(3) {
         transform: rotate(-45deg);
         transform-origin: 10% 90%;
+        margin-left: 2px;
       }
     }
 
     &.collapsed {
       .icon-bar {
         &:nth-child(1) {
-          transform: rotate(0);
+          transform: rotate(0) translateX(-1px);
+          margin-left: 0;
         }
 
         &:nth-child(2) {
+          transform: rotate(0) translateX(-1px);
           opacity: 1;
           filter: alpha(opacity=1);
         }
 
         &:nth-child(3) {
-          transform: rotate(0);
+          transform: rotate(0) translateX(-1px);
+          margin-left: 0;
         }
       }
     }
@@ -114,7 +134,7 @@
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.09);
     top: 0;
     @include mobile {
-      top: 10px;
+      top: 0;
       padding: 20px 20px;
     }
     .navbar-brand {
