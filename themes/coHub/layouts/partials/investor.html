@@ -10,29 +10,29 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center p-2">
       {{ range .managers}}
-      <div class="col-4" style="padding: 20px;">
+      <div class="col-4" style="text-align: center; padding: 4px;">
         <div class="member-informashion">
           <div class="member-thume">
             <img src="{{ .image | absURL }}" alt="image">
           </div>
-          <h4>{{.name}}</h4>
-          <h6 style="margin: 0; padding: 0;">{{.post}}</h6>
-          <p style="margin: 0; padding: 0;">{{.description}}</p>
-          <a href="tel:{{ .phone }}">{{ .phone }}</a>
+          <h6>{{.name}}</h6>
+          <h6 style="margin: 0; padding: 0; font-size: 14px;">{{.post}}</h6>
+          <p style="margin: 0; padding: 0; font-size: 14px;">{{.description}}</p>
+          <a href="tel:{{ .phone }}" style="font-size: 12px;">{{ .phone }}</a>
         </div>
       </div>
       {{end}}
       {{ range .engineers}}
-      <div class="col-3 p-2">
-        <div class="member-informashion">
+      <div class="col-3" style="text-align: center; padding: 4px;">
+        <div class="member-informashion" style="text-align: center;">
           <div class="member-thume">
             <img src="{{ .image | absURL }}" alt="image">
           </div>
-          <h4>{{.name}}</h4>
-          <p style="margin-top: 0; margin-bottom: 0; padding: 0;">{{.post}}</p>
-          <a href="tel:{{ .phone }}">{{ .phone }}</a>
+          <h6 style="text-align: center;">{{.name}}</h6>
+          <p style="margin: 0; padding: 0; text-align: center; font-size: 14px;">{{.post}}</p>
+          <a href="tel:{{ .phone }}" style="font-size: 12px;">{{ .phone }}</a>
         </div>
       </div>
       {{end}}
