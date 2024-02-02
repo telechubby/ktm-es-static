@@ -1,4 +1,4 @@
-baseURL = 'https://ktmenergysolutions.com'
+baseURL = 'https://ktm-es.com'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"
