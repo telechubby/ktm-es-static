@@ -17,7 +17,7 @@ managers:
   - name: "Marjan Jovchevski"
     post: "Managing Partner"
     description: "Finance Director"
-    image: "images/team/marjan.png"
+    image: "images/team/marjan.jpg"
     phone: "+38970210823"
 engineers:
   - name: "Filip Majstorski"
