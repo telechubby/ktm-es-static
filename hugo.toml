@@ -1,8 +1,10 @@
 baseURL = 'https://ktm-es.com'
 languageCode = 'en-us'
-paginate = 6
 theme= "coHub"
 title = 'KTM Energy Solutions'
+
+[pagination]
+  pagerSize = 6
  
 
   # Main Menu

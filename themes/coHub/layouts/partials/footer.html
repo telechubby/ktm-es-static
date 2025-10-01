@@ -42,7 +42,7 @@
 
 
 {{ "<!-- Non Critical CSS -->" | safeHTML }}
-{{$style :=  resources.Get "scss/non-critical.scss" | resources.ToCSS | resources.Minify }}
+{{$style :=  resources.Get "scss/non-critical.scss" | css.Sass | resources.Minify }}
 <link href="{{ $style.Permalink }}" rel="stylesheet" />
 {{ "<!-- VENDOR JS -->" | safeHTML }}
 <script src="{{"vendor/jQuery/jquery.min.js" | absURL }}"></script>
