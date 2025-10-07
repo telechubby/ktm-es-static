@@ -31,10 +31,10 @@ title = 'KTM Energy Solutions'
 
   [params.address]
   address = "Goce Delchev 43, 2000 Shtip, Macedonia"
-  email = "naracki@ktm-es.com"
+  email = "ktm.energy.mk@gmail.com"
   openingDesc = "Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days."
   openingHours = "We are open from 08:00 - 16:00 Mon-Fri"
-  phone = "+38978590599"
+  phone = "+38972258557"
 
   # Social icons
   [[params.social]]
